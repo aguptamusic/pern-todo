@@ -13,7 +13,7 @@ app.use(express.json()); //req.body
 // create a todo
 app.post("/todos", async (req, res) => {
   try {
-    //console.log(req.body); --> enter raw JSON in Postman, see it printed in console
+    //console.log(req.body); --> enter raw JSON body in Postman, see it printed in console
     const { description } = req.body;
     const newTodo = await pool.query(
       "INSERT INTO todo (description) VALUES($1) RETURNING *",

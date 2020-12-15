@@ -1,5 +1,5 @@
 /*
-    Record of command line psql commands.
+    Record of key command line psql commands.
 */
 
 /** Notes:
