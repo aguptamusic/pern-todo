@@ -13,5 +13,11 @@ The backend makes use of Node.js, a JavaScript runtime environment, with an Expr
 ### Client Side
 The frontend, built with ReactJS and Bootstrap, makes use of two primary components: InputTodo and ListTodos, the latter of which branches into displaying, editing, and deleting. These components were written as functional components with state hooks. The bulk of the work on the client side involved calling the relevant API route upon click of a button to add, edit, and delete an entry. To display the list, I mapped the database entries to a table display. 
 
+### Moving Forward
+A few extensions that I might pursue:
+- Make this a default browser landing page.
+- Display items in order of priority (user provides date/time deadline or priority ranking). 
+- Add an expandable description field for each item.
+
 ### Credit
 Credit goes to The Stoic Programmers for their online tutorial.
